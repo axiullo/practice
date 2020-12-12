@@ -1,2 +1,2 @@
 # practice
-leecode
+自己刷leecode练习
