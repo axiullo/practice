@@ -78,4 +78,26 @@ public:
 
 		return newhead;
 	}
+
+	ListNode* deleteDuplicates_1(ListNode* head) {
+		ListNode* iter_node = head;
+
+
+		while (iter_node) {
+			if (!iter_node->next) {
+				break;
+			}
+
+			if (iter_node->val == iter_node->next->val) {
+				ListNode* del = iter_node->next;
+				iter_node->next = del->next;
+				delete(del);
+				continue;;
+			}
+
+			iter_node = iter_node->next;
+		}
+
+		return head;
+	}
 };
