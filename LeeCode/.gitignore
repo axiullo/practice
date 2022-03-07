@@ -1,2 +1,5 @@
 .vs
 Debug
+./LeeCode/LeeCode.vcxproj
+./LeeCode/LeeCode.vcxproj.filters
+./LeeCode/LeeCode.vcxproj.user
