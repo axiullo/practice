@@ -27,6 +27,30 @@
     <ClInclude Include="L160.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="L234.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="L83.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="L328.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="L2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="L704.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="L278.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="L35.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="L977.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
