@@ -1,4 +1,4 @@
-#include "L2.h"
+#include "L167.h"
 #include <iostream>
 using namespace std;
 
@@ -14,9 +14,7 @@ int main()
 	*/
 
 	Solution example;
-	//example.test();
-	//example.test1();
-	example.test2();
+	example.test();
 	system("pause");
 	return 0;
 }

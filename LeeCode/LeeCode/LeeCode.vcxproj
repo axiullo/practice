@@ -124,13 +124,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="L160.h" />
+    <ClInclude Include="L167.h" />
+    <ClInclude Include="L189.h" />
     <ClInclude Include="L2.h" />
     <ClInclude Include="L206.h" />
     <ClInclude Include="L21.h" />
     <ClInclude Include="L234.h" />
     <ClInclude Include="L24.h" />
     <ClInclude Include="L278.h" />
+    <ClInclude Include="L283.h" />
     <ClInclude Include="L328.h" />
+    <ClInclude Include="L344.h" />
     <ClInclude Include="L35.h" />
     <ClInclude Include="L704.h" />
     <ClInclude Include="L83.h" />

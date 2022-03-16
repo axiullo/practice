@@ -51,6 +51,18 @@
     <ClInclude Include="L977.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="L283.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="L189.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="L167.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="L344.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
