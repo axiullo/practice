@@ -136,8 +136,10 @@
     <ClInclude Include="L328.h" />
     <ClInclude Include="L344.h" />
     <ClInclude Include="L35.h" />
+    <ClInclude Include="L557.h" />
     <ClInclude Include="L704.h" />
     <ClInclude Include="L83.h" />
+    <ClInclude Include="L876.h" />
     <ClInclude Include="L977.h" />
   </ItemGroup>
   <ItemGroup>

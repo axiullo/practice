@@ -17,11 +17,32 @@
 /************************************************************************/
 
 #include <vector>
+#include <iostream>
 using namespace std;
 
 class Solution {
 public:
 	void reverseString(vector<char>& s) {
+		int leftpos = 0;
+		int rightpos = s.size() - 1;
 
+		while (leftpos < rightpos)
+		{
+			int t = s[leftpos];
+			s[leftpos] = s[rightpos];
+			s[rightpos] = t;
+			++leftpos;
+			--rightpos;
+		}
+	}
+
+	void test() {
+		vector<char> s = { 'a', 'b','c','d' };
+		reverseString(s);
+
+		for (int i  =0 ; i <s.size(); ++i)
+		{
+			cout << s[i] << "  ";
+		}
 	}
 };
