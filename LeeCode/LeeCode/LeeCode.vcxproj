@@ -142,6 +142,7 @@
     <ClInclude Include="L83.h" />
     <ClInclude Include="L876.h" />
     <ClInclude Include="L977.h" />
+    <ClInclude Include="LC5.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
