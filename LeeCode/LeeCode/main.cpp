@@ -2,6 +2,12 @@
 #include <iostream>
 using namespace std;
 
+//#define test
+void print_definetest()
+{
+	cout << "print_definetest" << endl;
+}
+
 int main()
 {
 	/*
@@ -13,8 +19,13 @@ int main()
 	cout << p << endl;
 	*/
 
-	Solution example;
-	example.test();
-	system("pause");
+	//Solution example;
+	//example.test();
+	//system("pause");
+
+#ifdef test
+	print_definetest();
+#endif // test
+
 	return 0;
 }

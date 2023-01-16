@@ -75,6 +75,9 @@
     <ClInclude Include="LC5.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="LC6.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
