@@ -68,7 +68,6 @@ M             1000
 #include <string>
 #include <unordered_map>
 #include <iostream>
-#include <list>
 using namespace std;
 
 class Solution

@@ -1,4 +1,4 @@
-#include "L13.h"
+#include "LC20.h"
 #include <iostream>
 using namespace std;
 
@@ -19,9 +19,9 @@ int main()
 	cout << p << endl;
 	*/
 
-	//Solution example;
-	//example.test();
-	//system("pause");
+	Solution example;
+	example.test();
+	system("pause");
 
 #ifdef test
 	print_definetest();
