@@ -21,9 +21,12 @@
  * };
  */
 
- struct ListNode {
+#include <iostream>
+using namespace std;
+
+struct ListNode {
 	int val;
-	ListNode *next;
+	ListNode* next;
 	ListNode(int x) : val(x), next(nullptr) {}
 };
 
@@ -39,7 +42,7 @@ public:
 			temp = cur->next;
 			cur->next = front;
 			front = cur;
-			cur = temp;			
+			cur = temp;
 		}
 
 		return front;
@@ -55,6 +58,35 @@ public:
 		head->next->next = head;
 		head->next = nullptr;
 		return p;
+	}
+
+	void test()
+	{
+		ListNode* head = NULL;
+		ListNode* curNode = nullptr;
+
+		for (int n = 0; n < 5; n++)
+		{
+			ListNode* node = new ListNode(n + 1);
+
+			if (!head) {
+				head = node;
+			}
+
+			if (curNode) {
+				curNode->next = node;
+			}
+
+			curNode = node;
+		}
+
+		ListNode* resultNode = reverseList(head);
+
+		while (resultNode)
+		{
+			cout << resultNode->val << endl;
+			resultNode = resultNode->next;
+		}
 	}
 };
 
