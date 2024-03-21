@@ -90,6 +90,18 @@
     <ClInclude Include="LC20.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="LC30.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="L49.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="L128.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="L11.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
