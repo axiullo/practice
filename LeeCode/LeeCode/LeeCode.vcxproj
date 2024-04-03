@@ -126,6 +126,7 @@
     <ClInclude Include="L11.h" />
     <ClInclude Include="L128.h" />
     <ClInclude Include="L13.h" />
+    <ClInclude Include="L15.h" />
     <ClInclude Include="L160.h" />
     <ClInclude Include="L167.h" />
     <ClInclude Include="L189.h" />
@@ -141,6 +142,7 @@
     <ClInclude Include="L328.h" />
     <ClInclude Include="L344.h" />
     <ClInclude Include="L35.h" />
+    <ClInclude Include="L42.h" />
     <ClInclude Include="L49.h" />
     <ClInclude Include="L557.h" />
     <ClInclude Include="L704.h" />

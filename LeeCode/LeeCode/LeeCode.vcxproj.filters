@@ -102,6 +102,12 @@
     <ClInclude Include="L11.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="L15.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="L42.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
